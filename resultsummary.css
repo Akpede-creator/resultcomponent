@@ -3,7 +3,7 @@
     padding: 0%;
 }
 :root{
---light-red: hsl(0, 100%, 67%);
+--light-red: hsl(0, 50%, 53%);
 --orangey-yellow: hsl(39, 100%, 56%);
 --green-teal: hsl(166, 100%, 37%);
 --cobalt-blue: hsl(234, 85%, 45%);
@@ -26,25 +26,84 @@
   }
   body{
     background-color: var(--Pale-blue);
+    font-family: "Outfit", serif;
+    color: white;
+    font-size: 18px;
   }
   
-    
-
+   p{
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+   } 
+   span, h3{
+    color: black;
+   }
 
 
 @media screen and (min-width: 375px){
   .firstbox{
     display: block;
     width: 500px;
-    height: 300px;
+    height: 400px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     align-content: center;
-    justify-items: center;
-    line-height: 2;
-    background-color: var(--Violet-blue);
+    justify-items: center;   
+    background-color: hsla(241, 58%, 52%, 0.999);
 }
   .secondbox{
-    display: inline-table;
+    background-color: var(--White);
+    width: 500px;
+    height: 450px;
+    align-content: center;
+    justify-items: center;
   }
+  .enlarge76{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+  }
+  .firstbuttonlike{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: hsla(241, 90%, 24%, 0.173);
+
+  }
+  .inbox1{
+    background-color:  hsl(0, 56%, 95%);
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+
+    
+  }
+  .inbox2{
+    background-color:  hsl(39, 67%, 94%);
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .inbox3{
+    background-color:  hsl(168, 65%, 95%);
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .inbox4{
+    background-color:  hsl(240, 31%, 94%);
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px
+  }
+  
 }
